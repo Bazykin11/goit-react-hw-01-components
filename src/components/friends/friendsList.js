@@ -10,11 +10,12 @@ import {
 export const FriendsList = ({ friends }) => {
     return (
       <Friends>
-        
         {friends.map(friend => (
           <FriendsItem key={friend.id}>
             <FriendsStatus status={friend.isOnline}></FriendsStatus>
-            <img src={friend.avatar} alt="User avatar" width="48" />
+            <img src={friend.avatar} 
+            alt="User avatar" 
+            width="48" />
             <FriendsName>{friend.name}</FriendsName>
           </FriendsItem>
         ))}

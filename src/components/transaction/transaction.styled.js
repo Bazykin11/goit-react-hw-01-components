@@ -8,7 +8,7 @@ export const TableAll = styled.table`
 `;
 
 export const TableTh = styled.th`
-font-weight: bold;
+	font-weight: bold;
 	padding: 5px;
 	background: #efefef;
 	border: 1px solid #dddddd;

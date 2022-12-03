@@ -7,7 +7,6 @@ export const Friends = styled.ul`
   padding: 2px;
   width: 352px;
   background-color: #FFFFFF;
-  /* border: 2px solid #000; */
   border-radius: 4px;
 `;
 
@@ -19,11 +18,6 @@ export const FriendsItem = styled.li`
   background-color: aqua;
   border: 2px solid #393e46;
   border-radius: 1px;
-  /* cursor: pointer;
-  transition: box-shadow 250ms linear;
-  :hover {
-    box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.6);
-  } */
 `;
 
 export const FriendsStatus = styled.span`
