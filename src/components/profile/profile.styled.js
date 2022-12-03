@@ -46,7 +46,7 @@ export const ProfileItem = styled.li`
     border-radius: 15px;
 `;
 
-export const ProfileSpan = styled.li`
+export const ProfileSpan = styled.span`
     display: flex;
     justify-content: center;
     margin-top: 5px;

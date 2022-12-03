@@ -25,7 +25,6 @@ export const StatList = styled.ul`
 
 export const StatItem = styled.li`
     display: block;
-
 `;
 
 export const StatSpan = styled.span`

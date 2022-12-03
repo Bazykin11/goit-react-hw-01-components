@@ -28,6 +28,5 @@ export const App = () => {
       <FriendsList friends={friends} />
       <TransactionHistory transactions={transactions} />
     </Container>
-  
 );
 };
